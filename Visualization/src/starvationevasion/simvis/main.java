@@ -1,6 +1,6 @@
 package starvationevasion.simvis;
 
-import starvationevasion.simvis.visuals.VisualManager;
+import starvationevasion.simvis.visuals.EarthViewer;
 
 
 /**
@@ -11,38 +11,6 @@ import starvationevasion.simvis.visuals.VisualManager;
  */
 public class main {
   public static void main(String[] args) {
-    new VisualManager().run();
-//    VisualManager visualManager = new VisualManager();
-//    GLProfile glProfile = GLProfile.getDefault();
-//    GLCapabilities glCapabilities = new GLCapabilities(glProfile);
-//    final GLCanvas glCanvas = new GLCanvas(glCapabilities);
-//
-//    glCanvas.addGLEventListener(new GLEventListener()
-//    {
-//      @Override
-//      public void init(GLAutoDrawable glAutoDrawable)
-//      {
-//
-//      }
-//
-//      @Override
-//      public void dispose(GLAutoDrawable glAutoDrawable)
-//      {
-//
-//      }
-//
-//      @Override
-//      public void display(GLAutoDrawable glAutoDrawable)
-//      {
-//
-//      }
-//
-//      @Override
-//      public void reshape(GLAutoDrawable glAutoDrawable, int i, int i1, int i2, int i3)
-//      {
-//
-//      }
-//    });
-
+    EarthViewer.launch(EarthViewer.class, args);
   }
 }

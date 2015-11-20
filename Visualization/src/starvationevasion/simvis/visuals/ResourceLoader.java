@@ -1,46 +1,44 @@
 package starvationevasion.simvis.visuals;
 
-import de.matthiasmann.twl.utils.PNGDecoder;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.ByteBuffer;
+import java.awt.*;
+import java.io.*;
 
 /**
  * Created by Tess Daughton 11/14/15.
  * This class will be used to load/parse any resources necessary for the Visualization rendering.
  */
 
+
 public class ResourceLoader
 {
-  private static InputStream input;
-  private static PNGDecoder imageDecoder;
-  private static ByteBuffer imageBytes;
+  private final Image STAR;
+  private final Image SPEC_MAP;
+  private final Image NORM_MAP;
+  private final Image DIFF_MAP;
 
-  /**
-   * Converts a URL
-   *
-   * @param imagePath
-   * @return
-   * @throws IOException
-   */
-  public ByteBuffer imageToByteBuffer(String imagePath)
+  public ResourceLoader()
+  {
+    STAR = loadLargeImage("");
+    SPEC_MAP = loadLargeImage("");
+    NORM_MAP = loadLargeImage("");
+    DIFF_MAP = loadLargeImage("");
+  }
+
+  public static Image loadLargeImage(String classPath)
   {
     try
     {
-     // input = this.getClass().getResourceAsStream(imagePath);
-      input = new FileInputStream((new File(imagePath)));
-      imageDecoder = new PNGDecoder(input);
-      imageBytes = ByteBuffer.allocateDirect(4 * imageDecoder.getWidth()*imageDecoder.getHeight());
-      imageDecoder.decode(imageBytes, imageDecoder.getWidth() * 4, PNGDecoder.Format.RGBA);
-      imageBytes.flip();
-      input.close();
+      DataInputStream dataInputStream = new DataInputStream(ResourceLoader.class.getResourceAsStream(classPath));
+      byte STREAM[] = new byte[dataInputStream.available()];
+      dataInputStream.readFully(STREAM);
+      dataInputStream.close();
+      return Toolkit.getDefaultToolkit().createImage(STREAM);
+
     } catch (IOException e)
     {
       e.printStackTrace();
     }
-    return imageBytes;
+    return null;
   }
 }
