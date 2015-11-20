@@ -16,6 +16,9 @@ import javafx.stage.Stage;
 import javafx.util.Duration;
 import javafx.scene.input.MouseEvent;
 
+import java.io.DataInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.Stack;
 
 
@@ -38,11 +41,11 @@ public class EarthViewer extends Application implements EventHandler
   private static final double SCALE_DELTA = 1.1;
 
 
-  private static final String DIFFUSE_MAP =
+  private static final String DIFFUSE_MAP =// "DIFFUSE_MAP.jpg";
       "http://www.daidegasforum.com/images/22/world-map-satellite-day-nasa-earth.jpg";
-  private static final String NORMAL_MAP =
-      "http://planetmaker.wthr.us/img/earth_normalmap_flat_8192x4096.jpg";
-  private static final String SPECULAR_MAP =
+  private static final String NORMAL_MAP = //"NORMAL_MAP.jpg";
+  "http://planetmaker.wthr.us/img/earth_normalmap_flat_8192x4096.jpg";
+  private static final String SPECULAR_MAP = //"SPEC_MAP.jpg";
       "http://planetmaker.wthr.us/img/earth_specularmap_flat_8192x4096.jpg";
 
   private final PerspectiveCamera CAMERA = new PerspectiveCamera();
@@ -58,8 +61,7 @@ public class EarthViewer extends Application implements EventHandler
 
     PhongMaterial earthMaterial = new PhongMaterial();
     earthMaterial.setDiffuseMap(
-        new Image(
-            DIFFUSE_MAP,
+        new Image(new DataInputStream(EarthViewer.class.getResourceAsStream("DIFFUSE_MAP.jpg")),
             MAP_WIDTH,
             MAP_HEIGHT,
             true,
@@ -67,8 +69,7 @@ public class EarthViewer extends Application implements EventHandler
         )
     );
     earthMaterial.setBumpMap(
-        new Image(
-            NORMAL_MAP,
+        new Image(new DataInputStream(EarthViewer.class.getResourceAsStream("NORMAL_MAP.jpg")),
             MAP_WIDTH,
             MAP_HEIGHT,
             true,
@@ -76,8 +77,7 @@ public class EarthViewer extends Application implements EventHandler
         )
     );
     earthMaterial.setSpecularMap(
-        new Image(
-            SPECULAR_MAP,
+        new Image(new DataInputStream(EarthViewer.class.getResourceAsStream("SPEC_MAP.jpg")),
             MAP_WIDTH,
             MAP_HEIGHT,
             true,
