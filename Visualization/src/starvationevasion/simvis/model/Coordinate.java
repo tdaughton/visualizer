@@ -8,12 +8,19 @@ import java.awt.*;
  */
 public class Coordinate
 {
-  final double LATITUTE;
+  final double LATITUDE;
   final double LONGITUDE;
 
-  public Coordinate(int x, int y)
+  public Coordinate(double lon, double lat)
   {
-    LATITUTE = x;
-    LONGITUDE = y;
+    LATITUDE = lat;
+    LONGITUDE = lon;
+  }
+
+  public String toString()
+  {
+    String lat = Math.abs(LATITUDE) + ((LATITUDE >= 0) ? "W" : "E");
+    String lon = Math.abs(LONGITUDE) + ((LONGITUDE >= 0) ? "N" : "S");
+    return lon + ", " + lat;
   }
 }
