@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5232df6-aec9-45b1-9a55-991f5d5ab841" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/DIFFUSE_MAP.jpg" afterPath="$PROJECT_DIR$/Visualization/resources/vis_resources/DIFFUSE_MAP.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/NORMAL_MAP.jpg" afterPath="$PROJECT_DIR$/Visualization/resources/vis_resources/NORMAL_MAP.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/SPEC_MAP.jpg" afterPath="$PROJECT_DIR$/Visualization/resources/vis_resources/SPEC_MAP.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/STARS.jpg" afterPath="$PROJECT_DIR$/Visualization/resources/vis_resources/STARS.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/night_sky.jpg" afterPath="$PROJECT_DIR$/Visualization/resources/vis_resources/night_sky.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/style.css" afterPath="$PROJECT_DIR$/Visualization/resources/vis_resources/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Visualization/Extra/firstdraft_controller_client.docx" afterPath="$PROJECT_DIR$/Visualization/Extra/firstdraft_controller_client.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Visualization/Extra/firstdraft_controller_client.pdf" afterPath="$PROJECT_DIR$/Visualization/Extra/firstdraft_controller_client.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Visualization/out/starvationevasion/simvis/main.class" afterPath="$PROJECT_DIR$/Visualization/out/starvationevasion/simvis/main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Visualization/src/ClientTest/ClientGUI.java" afterPath="$PROJECT_DIR$/Visualization/src/ClientTest/ClientGUI.java" />
+    <list default="true" id="f5232df6-aec9-45b1-9a55-991f5d5ab841" name="Default" comment="Trying to clean up the structure a bit. From now on, I think it is best to only run from ClientTest/ClientGUI, since this is how clients will actually be utilizing the code.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/EarthViewer.java" afterPath="$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/EarthViewer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Visualization/src/Brett/MoleculeSampleApp.java" afterPath="$PROJECT_DIR$/Visualization/src/Brett/MoleculeSampleApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/main.java" afterPath="$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VisTeam.iws" />
@@ -39,8 +26,8 @@
             <file leaf-file-name="CropsTest.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/smallevents/CropsTest.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.4011887">
-                    <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+                  <state vertical-scroll-proportion="0.31203565">
+                    <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                     <folding>
                       <element signature="imports" expanded="true" />
                     </folding>
@@ -83,17 +70,18 @@
       <file leaf-file-name="EarthViewer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/EarthViewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26745912">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.10995542">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
               <folding>
-                <element signature="e#3616#3617#0" expanded="true" />
-                <element signature="e#3643#3644#0" expanded="true" />
-                <element signature="e#3822#3823#0" expanded="true" />
-                <element signature="e#3848#3849#0" expanded="true" />
-                <element signature="e#4010#4011#0" expanded="true" />
-                <element signature="e#4055#4056#0" expanded="true" />
-                <element signature="e#6149#6150#0" expanded="true" />
-                <element signature="e#6190#6191#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3618#3619#0" expanded="true" />
+                <element signature="e#3645#3646#0" expanded="true" />
+                <element signature="e#3824#3825#0" expanded="true" />
+                <element signature="e#3850#3851#0" expanded="true" />
+                <element signature="e#4012#4013#0" expanded="true" />
+                <element signature="e#4057#4058#0" expanded="true" />
+                <element signature="e#6151#6152#0" expanded="true" />
+                <element signature="e#6192#6193#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -219,8 +207,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Visualization/src/ClientTest/CustomLayout.java" />
         <option value="$PROJECT_DIR$/Visualization/src/ClientTest/ClientGUI.java" />
-        <option value="$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/EarthViewer.java" />
         <option value="$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/smallevents/CropsTest.java" />
+        <option value="$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/EarthViewer.java" />
       </list>
     </option>
   </component>
@@ -933,11 +921,23 @@
       <option name="project" value="LOCAL" />
       <updated>1448052899095</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Trying to clean up the structure a bit. From now on, I think it is best to only run from ClientTest/ClientGUI, since this is how clients will actually be utilizing the code.">
+      <created>1448773671089</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1448773671089</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Trying to clean up the structure a bit. From now on, I think it is best to only run from ClientTest/ClientGUI, since this is how clients will actually be utilizing the code.">
+      <created>1448774427520</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1448774427520</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="23" width="1309" height="932" extended-state="1" />
+    <frame x="42" y="23" width="1309" height="932" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1003,13 +1003,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <MESSAGE value="Added .gitignore fle &#10;I've never used one before so if it is messing things up let me know..." />
     <MESSAGE value="Updated ReadMe and added the file we talked about from the previous group which contains latitude and longitude info for countries to the resources directory under model_resources. &#10;I added two packages inside of src/starvationevasion.vis, Model and Visualizer. We can add more if anyone feels it is necessary." />
     <MESSAGE value="Updated ReadMe and added the file we talked about from the previous group which contains latitude and longitude info for countries to the resources directory under model_resources. &#10;I added two packages inside of src/starvationevasion.vis, Model and Visualizer. We can add more if anyone feels it is necessary. EDIT: Actually added the resources folder this time :)" />
     <MESSAGE value="Working on creating some structure. &#10;Please check out the &quot;Extras&quot; folder Brett created to see the architecture I've created. I didn't do Visual architecture yet or totally finish the Model (Source and Effect still need to be implemented), but I did come up with a solid outline for the Controller." />
     <MESSAGE value="Working on creating some structure. &#10;Please check out the &quot;Extras&quot; folder Brett created to see the architecture I've created. I didn't do Visual architecture yet or totally finish the Model (Source and Effect still need to be implemented), but I did come up with a solid outline for the Controller. &#10;Heads up: Extra is contained inside the main project folder" />
     <MESSAGE value="Setting up new structure using JavaFX" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting up new structure using JavaFX" />
+    <MESSAGE value="Trying to clean up the structure a bit. From now on, I think it is best to only run from ClientTest/ClientGUI, since this is how clients will actually be utilizing the code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to clean up the structure a bit. From now on, I think it is best to only run from ClientTest/ClientGUI, since this is how clients will actually be utilizing the code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1054,14 +1056,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
           <folding>
-            <element signature="e#3616#3617#0" expanded="true" />
-            <element signature="e#3643#3644#0" expanded="true" />
-            <element signature="e#3822#3823#0" expanded="true" />
-            <element signature="e#3848#3849#0" expanded="true" />
-            <element signature="e#4010#4011#0" expanded="true" />
-            <element signature="e#4055#4056#0" expanded="true" />
-            <element signature="e#6149#6150#0" expanded="true" />
-            <element signature="e#6190#6191#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3618#3619#0" expanded="true" />
+            <element signature="e#3645#3646#0" expanded="true" />
+            <element signature="e#3824#3825#0" expanded="true" />
+            <element signature="e#3850#3851#0" expanded="true" />
+            <element signature="e#4012#4013#0" expanded="true" />
+            <element signature="e#4057#4058#0" expanded="true" />
+            <element signature="e#6151#6152#0" expanded="true" />
+            <element signature="e#6192#6193#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1118,14 +1121,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3616#3617#0" expanded="true" />
-            <element signature="e#3643#3644#0" expanded="true" />
-            <element signature="e#3822#3823#0" expanded="true" />
-            <element signature="e#3848#3849#0" expanded="true" />
-            <element signature="e#4010#4011#0" expanded="true" />
-            <element signature="e#4055#4056#0" expanded="true" />
-            <element signature="e#6149#6150#0" expanded="true" />
-            <element signature="e#6190#6191#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3618#3619#0" expanded="true" />
+            <element signature="e#3645#3646#0" expanded="true" />
+            <element signature="e#3824#3825#0" expanded="true" />
+            <element signature="e#3850#3851#0" expanded="true" />
+            <element signature="e#4012#4013#0" expanded="true" />
+            <element signature="e#4057#4058#0" expanded="true" />
+            <element signature="e#6151#6152#0" expanded="true" />
+            <element signature="e#6192#6193#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1362,14 +1366,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/MouseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Visualization/resources/vis_resources/NORMAL_MAP.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1411,29 +1407,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/EarthViewer.java">
+    <entry file="file://$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/smallevents/CropsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26745912">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.31203565">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#3616#3617#0" expanded="true" />
-            <element signature="e#3643#3644#0" expanded="true" />
-            <element signature="e#3822#3823#0" expanded="true" />
-            <element signature="e#3848#3849#0" expanded="true" />
-            <element signature="e#4010#4011#0" expanded="true" />
-            <element signature="e#4055#4056#0" expanded="true" />
-            <element signature="e#6149#6150#0" expanded="true" />
-            <element signature="e#6190#6191#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/smallevents/CropsTest.java">
+    <entry file="file://$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/MouseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4011887">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/src/starvationevasion/simvis/visuals/EarthViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10995542">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3618#3619#0" expanded="true" />
+            <element signature="e#3645#3646#0" expanded="true" />
+            <element signature="e#3824#3825#0" expanded="true" />
+            <element signature="e#3850#3851#0" expanded="true" />
+            <element signature="e#4012#4013#0" expanded="true" />
+            <element signature="e#4057#4058#0" expanded="true" />
+            <element signature="e#6151#6152#0" expanded="true" />
+            <element signature="e#6192#6193#0" expanded="true" />
           </folding>
         </state>
       </provider>

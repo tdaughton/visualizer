@@ -13,7 +13,7 @@ import javafx.scene.shape.Sphere;
 import javafx.scene.transform.Rotate;
 import javafx.util.Duration;
 import starvationevasion.simvis.model.Coordinate;
-import starvationevasion.simvis.visuals.smallevents.CropsTest;
+//import starvationevasion.simvis.visuals.smallevents.CropsTest;
 
 
 /**
