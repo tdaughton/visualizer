@@ -1,9 +1,23 @@
 # visualizer
 CS351 Visualization Team Repo 
 
+List of Global Renderable Events: Flood, Drought, Blight, Forest Fire, Hurricane 
+
 Brett was nice enough to put a sample architecture for the program up. It is in your project folder/Extras, I believe.
 
 To-Do:
+UPDATE: 11/25 
+
+Lawrence: 
+    -automatic "spinning" mode 
+    -interaction with globe 
+    -
+    
+Brett: 
+    -weather events 
+
+
+
 
 - get LWJGL working -> Tess and Brett both have it (we think), just need to make sure Anand and Laurence have it to
 - get basic sphere rotating

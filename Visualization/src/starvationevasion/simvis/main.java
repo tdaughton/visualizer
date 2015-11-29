@@ -11,6 +11,6 @@ import starvationevasion.simvis.visuals.EarthViewer;
  */
 public class main {
   public static void main(String[] args) {
-    EarthViewer.launch(EarthViewer.class, args);
+    //EarthViewer.launch(EarthViewer.class, args);
   }
 }

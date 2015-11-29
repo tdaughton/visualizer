@@ -348,7 +348,7 @@ public class MoleculeSampleApp extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        System.out.println("start");
+        System.out.println("startEarth");
 
         buildScene();
         buildCamera();
